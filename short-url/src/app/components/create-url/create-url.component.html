@@ -1,0 +1,14 @@
+<mat-form-field class="fullWidth" appearance="fill">
+    <mat-label>URL</mat-label>
+    <input matInput [(ngModel)] = "longUrl">
+</mat-form-field>
+
+<br>
+<button class="fullWidth" mat-raised-button color="primary" (click)="changeUrl()">GENERATE URL</button>
+<br>
+<br>
+
+<mat-form-field class="fullWidth" appearance="fill">
+    <mat-label>SHORT URL</mat-label>
+    <input readonly="true" matInput [(ngModel)] = "shortUrl"> 
+</mat-form-field>

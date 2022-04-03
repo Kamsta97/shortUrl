@@ -1,0 +1,10 @@
+.fullWidth {
+    width: 100%;
+}
+
+.wrap {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 150px;
+  }
